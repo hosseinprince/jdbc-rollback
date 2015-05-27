@@ -31,7 +31,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "hossein akbarzadeh,majid yaghoti <akbarzade.s.h@gmail.com>",
+  "author": "hossein akbarzadeh,majid yaghoti <akbarzade.s.h@gmail.com>,Jason Ozias <jason.g.ozias@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
