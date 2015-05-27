@@ -86,9 +86,6 @@ API
  - opens a new connection
  - default for "isAutoCommit" is true
  - callback(error)
-### commit(callback)
- - commit a transaction
- - callback(error)
 
 ### close(callback)
  - closes any existing connection
