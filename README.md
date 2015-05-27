@@ -89,6 +89,9 @@ API
 ### open(callback)
  - opens a new connection
  - callback(error)
+### commit(callback)
+ - commit a transaction
+ - callback(error)
 
 ### close(callback)
  - closes any existing connection
