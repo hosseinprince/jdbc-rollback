@@ -5,10 +5,11 @@ JDBC transaction for node.js
 
 Latest Version
 --------------
-0.0.13
+0.0.15
 
 Support for commit transaction has been added.  Set "isAutoCommit" in "open" method false, so a transaction is started.  As of release 0.0.9, the minimum version of node.js has been increased 
 to v0.10.  If you need to use this with node.js v0.8, use version 0.0.8 of node-jdbc.
+Support  procedure call has benn added.
 
 Please visit [jdbc-rollback](https://www.npmjs.org/package/jdbc-rollback) for information on installing with npm.
 
