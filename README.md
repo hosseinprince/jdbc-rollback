@@ -79,18 +79,17 @@ procedure
 ```javascript
 
 var query = "{call insert_test(?,?,?,?)}";
+        var param_in = [];
+        var out_type = [];
+        param_in.push({id: 1, value: "bi_report", type: "nvarchar"}, {id: 2, value: "id", type: "nvarchar"},
+             {id: 3, value: "insert into bi_report(CREATED) VALUES(sysdate)", type: "nvarchar"});
+        out_type.push({id: 4, type: "int"});
+        jdbc.prepareCall(query, param_in, out_type)
+            .then(function (result) {
 
-            var param_in = [];
-            var out_type = [];
-            param_in.push({id: 1, value: "bi_report", type: "nvarchar"}, {id: 2, value: "id", type: "nvarchar"},
-                {id: 3, value: "insert into bi_report(CREATED) VALUES(sysdate)", type: "nvarchar"});
-            out_type.push({id: 4, type: "int"});
-            jdbc.prepareCall(query, param_in, out_type)
-                .then(function (result) {
+              console.log("**************************************************", result);
 
-                    console.log("**************************************************", result);
-
-                    })
+        })
                   
 
 ```
