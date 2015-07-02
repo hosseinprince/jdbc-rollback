@@ -103,7 +103,7 @@ API
 - commit a transaction
 
 ###prepareCall(sql,param_in,out_type,callback)
--procedure query command
--inputs parameter object
--outputs parameter object
--callback(error,result) where @result is object of the number of rows modified
+- procedure query command
+- inputs parameter object
+- outputs parameter object
+- callback(error,result) where @result is object of the number of rows modified
