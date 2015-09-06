@@ -102,7 +102,7 @@ API
  - see above example for config object
  - callback(error)
 
-### open(isAutoCommit,callback)
+### open(callback,isAutoCommit)
  - opens a new connection
  - default for "isAutoCommit" is true
  - callback(error)
